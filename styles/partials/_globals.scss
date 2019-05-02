@@ -1,0 +1,11 @@
+//
+// Imports
+@import '~bootstrap/scss/bootstrap';
+@import './colors';
+@import './header-nav';
+
+// General
+body {
+    background-color: $black;
+    padding-top: 4.5rem;
+}

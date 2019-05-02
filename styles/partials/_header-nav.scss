@@ -1,0 +1,30 @@
+//
+// Header Navigation Styles
+// Mobile
+#hdrNav {
+    padding: 1rem;
+    
+    &.bg-dark {
+        background-color: $header-nav-bg !important;
+    }
+
+    .navbar-nav {
+        .nav-link {
+            color: $header-nav-links;
+            opacity: 1;
+
+            &:hover {
+                opacity: .8;
+            }
+        }
+    }
+
+    .navbar-toggler {
+        border: none;
+        margin: 0;
+
+        &:focus {
+            outline: none;
+        }
+    }
+}

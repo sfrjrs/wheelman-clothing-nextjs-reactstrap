@@ -1,0 +1,25 @@
+{
+  "name": "wheelman-nextjs-store",
+  "version": "1.0.0",
+  "description": "wheelman clothing co ecommerce store using next.js and snipcart",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "author": "jason spence <json.spence@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "bootstrap": "^4.3.1",
+    "express": "^4.16.4",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^8.1.0",
+    "node-sass": "^4.12.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-markdown": "^4.0.8",
+    "reactstrap": "^8.0.0"
+  }
+}
