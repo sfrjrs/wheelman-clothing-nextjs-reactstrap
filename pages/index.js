@@ -8,6 +8,7 @@ const Index = (props) => (
     <Layout>
         <Head>
             <title>Wheelman Clothing Co.</title>
+            <meta property="description" content="Wheelman Clothing Co. is a small clothing company dedicated to providing the best custom t-shirts, hats and stickers to people and comapnies around the world." />
         </Head>
         <Jumbotron>
             <Container>

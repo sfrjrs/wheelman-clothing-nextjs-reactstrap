@@ -8,6 +8,7 @@ export default function Shop() {
         <Layout>
         <Head>
             <title>Shop | Wheelman Clothing Co.</title>
+            <meta property="description" content="Shop for Wheelman Clothing Co. t-shirts, hats and stickers. We accept all major credit cars and checkout is super fast and easy." />
         </Head>
         <Jumbotron>
             <Container>

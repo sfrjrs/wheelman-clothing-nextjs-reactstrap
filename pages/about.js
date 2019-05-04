@@ -7,7 +7,8 @@ export default function About() {
     return (
         <Layout>
         <Head>
-        <title>About Us | Wheelman Clothing Co.</title>
+            <title>About Us | Wheelman Clothing Co.</title>
+            <meta property="description" content="Wheelman Clothing Co. is a small family built and run company. Our dream is simple, create affordable quality t-shirts, hats and stickers to promote your brand or company in style." />
         </Head>
         <Jumbotron>
             <Container>
