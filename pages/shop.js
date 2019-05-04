@@ -7,7 +7,7 @@ export default function Shop() {
     return (
         <Layout>
         <Head>
-            <title>Shop</title>
+            <title>Shop | Wheelman Clothing Co.</title>
         </Head>
         <Jumbotron>
             <Container>

@@ -7,7 +7,7 @@ export default function About() {
     return (
         <Layout>
         <Head>
-            <title>Wheelman Clothing Co.</title>
+        <title>About Us | Wheelman Clothing Co.</title>
         </Head>
         <Jumbotron>
             <Container>
