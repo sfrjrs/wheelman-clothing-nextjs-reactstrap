@@ -11,7 +11,7 @@ const Index = (props) => (
         </Head>
         <Jumbotron>
             <Container>
-                <h1 className="display-3">Hello, world!</h1>
+                <h1 className="display-3">Homepage</h1>
                 <p className="lead">This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content or information.</p>
                 <hr className="my-2" />
                 <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
@@ -20,34 +20,6 @@ const Index = (props) => (
                 </p>
             </Container>
         </Jumbotron>
-        <ul>
-            {props.shows.map(show => (
-                <li key={show.id}>
-                    <Link as={`/p/${show.id}`} href={`/post?id=${show.id}`}>
-                        <a>{show.name}</a>
-                    </Link>
-                </li>
-            ))}
-        </ul>
-        <style jsx>{`
-            h1, a {
-                font-family: 'Arial';
-            }
-            ul {
-                padding: 0;
-            }
-            li {
-                list-style: none;
-                margin: 5px 0;
-            }
-            a {
-                text-decoration: none;
-                color: blue;
-            }
-            a:hover {
-                opacity: .6;
-            }
-        `}</style>
     </Layout>
 )
 

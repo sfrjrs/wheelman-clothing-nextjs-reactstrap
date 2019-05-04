@@ -34,13 +34,13 @@ export default class HeaderNavBar extends React.Component {
                             </Link>
                         </NavItem>
                         <NavItem>
-                            <Link href="/">
-                                <NavLink href="/">About</NavLink>
+                            <Link href="/about">
+                                <NavLink href="/about">About</NavLink>
                             </Link>
                         </NavItem>
                         <NavItem>
-                            <Link href="/">
-                                <NavLink href="/">Shop</NavLink>
+                            <Link href="/shop">
+                                <NavLink href="/shop">Shop</NavLink>
                             </Link>
                         </NavItem>
                     </Nav>
