@@ -1,4 +1,10 @@
 {
+    "name": "wheelman-co-site",
     "version": 2,
-    "builds": [{ "src": "package.json", "use": "@now/next" }]
-  }
+    "public": true,
+    "builds": [
+      { "src": "package.json", "use": "@now/next" },
+      { "src": "*.html", "use": "next/static" },
+      { "src": "*.js", "use": "@now/node" }
+    ]
+}
