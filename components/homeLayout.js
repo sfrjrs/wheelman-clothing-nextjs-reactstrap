@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import Header from './Header'
-import '../styles/home.scss'
+import '../styles/base-styles.scss'
 
 const Layout = props => (
-    <div>
+    <html lang="en">
         <Head>
             <title>Home | Wheelman Clothing Co.</title>
             <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
@@ -11,7 +11,7 @@ const Layout = props => (
         </Head>
         <Header />
         {props.children}
-    </div>
+    </html>
 )
 
 export default Layout

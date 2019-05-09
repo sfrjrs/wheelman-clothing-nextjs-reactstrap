@@ -8,19 +8,26 @@ const Index = (props) => (
     <Layout>
         <Head>
             <title>Wheelman Clothing Co.</title>
-            <meta property="description" content="Wheelman Clothing Co. is a small clothing company dedicated to providing the best custom t-shirts, hats and stickers to people and comapnies around the world." />
+            <meta name="Description" content="Wheelman Clothing Co. is a small clothing company dedicated to providing the best custom t-shirts, hats and stickers to people and comapnies around the world." />
         </Head>
-        <Jumbotron>
+        <Jumbotron id="homeHero">
             <Container>
-                <h1 className="display-3">Homepage</h1>
-                <p className="lead">This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content or information.</p>
+                <h1 className="display-4">Custom Apparel and Stickers</h1>
+                <p className="lead">Our passion for creating t-shirts and hats we're proud to wear is what we're all about.</p>
                 <hr className="my-2" />
                 <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
                 <p className="lead">
-                    <Button color="primary">Learn More</Button>
+                    <Link href="/about">
+                        <Button color="primary" aria-label="Learn About Wheelman">Learn About Wheelman</Button>
+                    </Link>
                 </p>
             </Container>
         </Jumbotron>
+        <style global jsx>{`
+            .jumbotron {
+                border-radius: 0;
+            }
+        `}</style>
     </Layout>
 )
 

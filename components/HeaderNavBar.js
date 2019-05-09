@@ -23,9 +23,11 @@ export default class HeaderNavBar extends React.Component {
         <div>
             <Navbar id="hdrNav" color="dark" dark fixed="top" expand="md">
                 <Link href="/">
-                    <NavbarBrand href="/" className="mr-auto">Wheelman Clothing Co.</NavbarBrand>
+                    <NavbarBrand href="/" className="mr-auto">
+                        <img className="hdr-logo" src="/static/logos/wheelman_opt_web.jpg" alt="wheelman clothing logo" />
+                    </NavbarBrand>
                 </Link>
-                <NavbarToggler onClick={this.toggleNavbar} />
+                <NavbarToggler onClick={this.toggleNavbar} role="button" aria-label="Navigation Menu Toggle" />
                 <Collapse isOpen={!this.state.collapsed} navbar>
                     <Nav navbar className="ml-auto">
                         <NavItem>
@@ -46,6 +48,11 @@ export default class HeaderNavBar extends React.Component {
                     </Nav>
                 </Collapse>
             </Navbar>
+            <style jsx>{`
+                .hdr-logo {
+                    max-height: 3rem;
+                }
+            `}</style>
         </div>
     );
   }
