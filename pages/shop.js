@@ -26,8 +26,8 @@ export default function Shop() {
         </Jumbotron>
         <Container>
             <Row>
-                <Col>
-                    <Card>
+                <Col lg="4">
+                    <Card className="mb-3">
                         <CardHeader>T-Shirts</CardHeader>
                         <CardBody>
                             <CardTitle>Special Title Treatment</CardTitle>
@@ -36,25 +36,25 @@ export default function Shop() {
                         </CardBody>
                     </Card>
                 </Col>
-                <Col>
-                <Card>
-                    <CardHeader>Hats</CardHeader>
-                    <CardBody>
-                        <CardTitle>Special Title Treatment</CardTitle>
-                        <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-                        <Button>Go somewhere</Button>
-                    </CardBody>
-                </Card>
+                <Col lg="4">
+                    <Card className="mb-3">
+                        <CardHeader>Hats</CardHeader>
+                        <CardBody>
+                            <CardTitle>Special Title Treatment</CardTitle>
+                            <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+                            <Button>Go somewhere</Button>
+                        </CardBody>
+                    </Card>
                 </Col>
-                <Col>
-                <Card>
-                    <CardHeader>Stickers</CardHeader>
-                    <CardBody>
-                        <CardTitle>Special Title Treatment</CardTitle>
-                        <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-                        <Button>Go somewhere</Button>
-                    </CardBody>
-                </Card>
+                <Col lg="4">
+                    <Card className="mb-3">
+                        <CardHeader>Stickers</CardHeader>
+                        <CardBody>
+                            <CardTitle>Special Title Treatment</CardTitle>
+                            <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+                            <Button>Go somewhere</Button>
+                        </CardBody>
+                    </Card>
                 </Col>
             </Row>
         </Container>
