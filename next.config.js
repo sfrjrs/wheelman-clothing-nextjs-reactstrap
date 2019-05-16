@@ -8,7 +8,8 @@ module.exports = withPlugins([
             return {
               '/': { page: '/' },
               '/about': { page: '/about' },
-              '/shop': { page: '/shop' }
+              '/shop': { page: '/shop' },
+              '/shop/t-shirts': { page: '/tshirts' }
             }
         }
     }

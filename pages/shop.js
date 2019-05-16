@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../components/homeLayout'
-import { Container, Jumbotron, Button } from 'reactstrap';
+//import ShopSubNavMenu from '../components/ShopSubNavMenu'
+import { Container, Jumbotron, TabContent, TabPane, Nav, NavItem, NavLink, Card, Button, CardHeader, CardBody, CardTitle, CardText, Row, Col  } from 'reactstrap';
 
 export default function Shop() {
     return (
@@ -23,6 +24,40 @@ export default function Shop() {
                 </p>
             </Container>
         </Jumbotron>
+        <Container>
+            <Row>
+                <Col>
+                    <Card>
+                        <CardHeader>T-Shirts</CardHeader>
+                        <CardBody>
+                            <CardTitle>Special Title Treatment</CardTitle>
+                            <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+                            <Button>Go somewhere</Button>
+                        </CardBody>
+                    </Card>
+                </Col>
+                <Col>
+                <Card>
+                    <CardHeader>Hats</CardHeader>
+                    <CardBody>
+                        <CardTitle>Special Title Treatment</CardTitle>
+                        <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+                        <Button>Go somewhere</Button>
+                    </CardBody>
+                </Card>
+                </Col>
+                <Col>
+                <Card>
+                    <CardHeader>Stickers</CardHeader>
+                    <CardBody>
+                        <CardTitle>Special Title Treatment</CardTitle>
+                        <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+                        <Button>Go somewhere</Button>
+                    </CardBody>
+                </Card>
+                </Col>
+            </Row>
+        </Container>
         <style global jsx>{`
             .jumbotron {
                 border-radius: 0;
